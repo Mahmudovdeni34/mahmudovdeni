@@ -1,0 +1,15 @@
+﻿<Window x:Class="mahmudov.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mahmudov"
+        mc:Ignorable="d"
+        Title="Window4" Height="450" Width="800">
+    <Grid>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="110,20,0,0" VerticalAlignment="Top" Height="60" Width="60" Click="Button_Click_1"/>
+        <TextBox x:Name="NumberX" HorizontalAlignment="Left" Margin="128,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="140" Height="75" TextChanged="NumberX_TextChanged"/>
+        <Button Content="Проверить" HorizontalAlignment="Left" Margin="290,0,0,0" VerticalAlignment="Center" Height="30" Width="60" Click="Button_Click"/>
+        <Label x:Name="Resultat" Content="Правильность пароля" HorizontalAlignment="Left" Margin="317,0,0,0" VerticalAlignment="Center" Height="75" Width="320"/>
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+﻿<Window x:Class="mahmudov.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mahmudov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.496,0.525">
+        <Button Content="7" HorizontalAlignment="Left" Margin="331,312,0,0" VerticalAlignment="Top" Width="43" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="374,312,0,0" VerticalAlignment="Top" Width="44" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="418,312,0,0" VerticalAlignment="Top" Width="43" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="331,287,0,0" VerticalAlignment="Top" Width="45" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="376,287,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.59,-0.196" Width="45" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="421,287,0,0" VerticalAlignment="Top" Width="40" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="331,262,0,0" VerticalAlignment="Top" Width="45" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="376,262,0,0" VerticalAlignment="Top" Width="45" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="421,262,0,0" VerticalAlignment="Top" Width="40" Background="OldLace" Click="number_Click" Height="25"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="376,337,0,0" VerticalAlignment="Top" Width="85" Background="OldLace" Click="result_Click" Height="25"/>
+        <Button Content="^" HorizontalAlignment="Left" Margin="331,242,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.024,-0.211" Width="45" Background="ForestGreen" Click="operation_Click"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="286,312,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.561,0.578" Width="45" Background="ForestGreen" Click="operation_Click" Height="25"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="286,287,0,0" VerticalAlignment="Top" Width="45" Background="ForestGreen" Click="operation_Click" Height="25"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="286,337,0,0" VerticalAlignment="Top" Width="90" Click="number_Click"  Background="DeepPink" Height="25"/>
+        <Button Content="!" HorizontalAlignment="Left" Margin="331,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.483,0.546" Width="43" Background="ForestGreen" Height="25" Click="operation_Click"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="374,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.564,0.592" Width="40" Background="ForestGreen" Click="operation_Click" Height="25"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="414,217,0,0" VerticalAlignment="Top" Width="47"  Background="ForestGreen" Click="operation_Click" Height="25"/>
+        <TextBox HorizontalAlignment="Left" Margin="286,125,0,0" TextWrapping="Wrap" Text="BOX" VerticalAlignment="Top" Width="175" RenderTransformOrigin="0.461,0.397" Height="92" TextChanged="ICRAN_TextChanged" x:Name="ICRAN"/>
+        <Button Content="EXIT" HorizontalAlignment="Left" Margin="648,364,0,0" VerticalAlignment="Top" Width="124" Height="33" Click="EXIT_Click" Background="BurlyWood"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="376,242,0,0" VerticalAlignment="Top" Width="85" Background="DarkViolet" Click="Clear_Click"/>
+        <Button Content="←" HorizontalAlignment="Left" Margin="286,262,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.52,0.583" Background="Pink" Click="ONE_Click" Width="45" Height="25"/>
+
+    </Grid>
+</Window>
+

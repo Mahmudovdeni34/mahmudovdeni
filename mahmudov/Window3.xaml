@@ -1,0 +1,16 @@
+﻿<Window x:Class="mahmudov.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mahmudov"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    
+    <Grid>
+        <TextBox x:Name="NumberX" HorizontalAlignment="Left" Margin="80,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="140" Height="75" TextChanged="NumberX_TextChanged"/>
+        <Button Content="=>" HorizontalAlignment="Left" Margin="239,0,0,0" VerticalAlignment="Center" Height="30" Width="60" Click="Button_Click"/>
+        <Label x:Name="Resultat" Content="Результат" HorizontalAlignment="Left" Margin="317,0,0,0" VerticalAlignment="Center" Height="75" Width="83"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="686,34,0,0" VerticalAlignment="Top" Height="53" Width="81" Click="Button_Click_1"/>
+    </Grid>
+</Window>
